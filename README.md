@@ -1,4 +1,4 @@
-halpert-example
+Halpert Example
 ===============
 
-Halpert Example App
+This Node app is an example of how Halpert works.
