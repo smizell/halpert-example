@@ -23,10 +23,11 @@ function friendCollection(friends, name, href) {
 }
 
 function addFriend(friends, data) {
+  var count = friends.collection.items.length + 1;
   var friend = {
-    href : "/friends/fake",
+    href : "/friends/fake"+count,
     data : [
-      {name : "full-name", value : data.name, prompt : "Full Name"},
+      {name : "full-name", value : data ['full-name'], prompt : "Full Name"},
       {name : "email", value : data.email, prompt : "Email"}
     ],
     links : [
