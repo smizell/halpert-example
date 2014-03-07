@@ -1,0 +1,32 @@
+
+{
+  "name": "halpert",
+  "version": "0.0.0",
+  "description": "Halpert Example",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smizell/halpert-example"
+  },
+  "keywords": [
+    "Halpert",
+    "Hypermedia"
+  ],
+  "dependencies": {
+    "underscore": "1.5.2",
+    "express": "3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "0.3.1"
+  },
+  "author": "Stephen Mizell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smizell/halpert-example/issues"
+  },
+  "homepage": "https://github.com/smizell/halpert-example"
+}
